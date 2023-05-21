@@ -2,7 +2,20 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const numbers = ['9', '8', '7', '4', '5', '6', '1', '2', '3', '0']
+  const numbers = [
+    '9',
+    '8',
+    '7',
+    '4',
+    '5',
+    '6',
+    '1',
+    '2',
+    '3',
+    '0',
+    '00',
+    '000',
+  ]
   const actions = ['+', '-', '*', '/', 'C', '=']
   const [operator, setOperator] = useState('')
   const [value1, setValue1] = useState('0')
